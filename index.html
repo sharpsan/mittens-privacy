@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mittens privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --bg: #EAF1FB; --card: #fff; --ink: #16213E; --muted: #4A5678; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0F1730; --card: #1B2748; --ink: #F2F5FB; --muted: #B4BFD9; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--card); border-radius: 20px; padding: 20px 24px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+<h1>Mittens privacy policy</h1>
+<p class="date">Effective 19 November 2026</p>
+
+<div class="card">
+<p><strong>Mittens does not collect, store on any server, share or sell any personal data.</strong> It has no accounts, no ads, no analytics and no crash reporting. Everything the app remembers stays on your phone.</p>
+</div>
+
+<h2>What Mittens is</h2>
+<p>Mittens: touch lock for little hands (package <code>com.sharpsan.mittens</code>) is an Android app that turns off the touchscreen while the app underneath keeps playing, so a child can hold the phone during a video call or a show.</p>
+
+<h2>Accessibility access</h2>
+<p>Mittens uses Android's accessibility service API, because it is the only way Android lets an app block touches. Mittens uses it to:</p>
+<ul>
+<li>cover the screen with an invisible layer that blocks touches while a lock is on;</li>
+<li>detect the volume buttons, so that holding both unlocks the screen;</li>
+<li>see which app is in front, so that it can apply the touch areas you saved for that app and bring the app back if a swipe leaves it during a lock.</li>
+</ul>
+<p>Mittens never reads what is on your screen, never records what you type or tap, and never sends anything it sees anywhere. The name of the app in front is used only on your phone, only for the purposes above.</p>
+
+<h2>What is kept on your phone</h2>
+<ul>
+<li>Your settings.</li>
+<li>Touch areas you save: the rectangles you drew and the package name of the app they belong to.</li>
+<li>Whether the full version has been bought.</li>
+</ul>
+<p>This is stored in the app's private storage and is not included in Android backups. It is deleted when you clear the app's data or uninstall the app.</p>
+
+<h2>Purchases</h2>
+<p>The full version is a one-time purchase made through Google Play Billing. Google handles the payment under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. Mittens never sees your payment details; it only learns from Google Play whether the purchase was made.</p>
+
+<h2>Internet permission</h2>
+<p>The app declares the internet permission because Google Play Billing needs it. Mittens has no network code of its own and contacts no server other than Google Play, through the Billing library.</p>
+
+<h2>Children</h2>
+<p>Mittens is a tool for parents and carers. It is set up and controlled by an adult, and it collects no information from anyone, children included.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: open an issue at <a href="https://github.com/sharpsan/mittens-privacy/issues">github.com/sharpsan/mittens-privacy</a>.</p>
+</main>
+</body>
+</html>
